@@ -1,0 +1,323 @@
+.echoes {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+
+.echoes h2 {
+    font-family: papyrus;
+    font-size: 70px;
+}
+
+.echoes h3 {
+    font-family: arial;
+    font-size: 60px;
+}
+
+.learn {
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 60px;
+    left: 600px;
+    border: 3px solid orange;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+.learn a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.learn:hover {
+    background-color: black;
+}
+
+.heading {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+    font-family: arial;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.img-index img {
+    max-width: 100%;
+}
+
+.welcome {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    left: 10%;
+    top: 30%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.welcome span {
+    font-size: 1.2em;
+}
+
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto auto;
+    position: sticky;
+    top: 100px;
+    white-space: nowrap;
+}
+
+nav ul li {
+    width: 35%;
+    font-size: 24px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #413a3a;
+    font-weight: 600;
+    font-size: 120%;
+    border: 4px solid #4b4b4b;
+    padding: 5px;
+    font-family: papyrus;
+    list-style-type: none;
+}
+
+.intro {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    font-family: papyrus;
+    color: crimson;
+    font-size: 25px;
+}
+
+.intro p {
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.images {
+    white-space: nowrap;
+    text-align: center;
+    margin: 80px 0px;
+    list-style-type: none;
+}
+
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+.join {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+    font-family: arial;
+}
+
+.join h2 {
+    font-size: 36px;
+}
+
+.join p {
+    font-size: 27px;
+}
+
+.button {
+    padding: 15px 15px;
+    color: orange;
+    border: 3px solid rgb(226, 149, 4);
+    border-radius: 18px;
+    transition-duration: 0.4s;
+}
+
+.button a {
+    color: orange;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.branch1 {
+    position: absolute;
+    top: 610px;
+    left: 0px;
+    z-index: -1;
+}
+
+.branch2 {
+    position: absolute;
+    top: 610px;
+    right: 0px;
+    z-index: -1;
+}
+
+.register-heading {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-family: papyrus;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #423d448b;
+    padding: 20px;
+    font-family: papyrus;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    transition: background-color 1s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+
+.invitation {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: rgb(21, 71, 146);
+    padding: 40px;
+    font-size: 220%;
+    border-radius: 70px;
+    text-align: center;
+    color: white;
+    font-family: papyrus;
+}
+
+.decoration {
+    font-size: 100%;
+    font-weight: 1.5em;
+}
+
+.main-about {
+    font-family: verdana;
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(197, 129, 4);
+    left: 20px;
+}
+
+.emphasize {
+    font-family: papyrus;
+    text-decoration: underline;
+    font-size: 160%;
+    color: rgb(120, 72, 5);
+}
+
+.name,
+.email {
+    font-family: georgia;
+    color: #413a3a;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 340px;
+}
+
+.name-input,
+.email-input {
+    padding: 10px 10px;
+    border: 3px solid orange;
+    border-radius: 25px;
+    position: absolute;
+    left: 810px;
+}
+
+.note {
+    font-family: Georgia;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 30px;
+    text-align: center;
+    color: #413a3a;
+}
+
+.radio {
+    font-family: georgia;
+    color: #413a3a;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 310px;
+}
+
+.meal {
+    font-family: georgia;
+    color: #413a3a;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 340px;
+    top: 450px;
+}
+
+.meal-input {
+    padding: 10px 10px;
+    border: 3px solid orange;
+    border-radius: 25px;
+    position: absolute;
+    left: 750px;
+    top: 441px;
+}
+
+.request {
+    font-family: georgia;
+    color: #413a3a;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 160px;
+    top: 510px;
+}
+
+.request-input {
+    padding: 10px 10px;
+    border: 3px solid orange;
+    border-radius: 25px;
+    position: absolute;
+    left: 750px;
+    top: 500px;
+}
+
+.footer img {
+    width: 10%;
+}
+
+.schedule {
+    max-width: 100%;
+}

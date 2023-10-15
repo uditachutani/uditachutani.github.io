@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="/images/branches.jpg">
+    <h1 class="register-heading">Register Yourself Now!</h1><br>
+    <form>
+        <label for="name" class="name">What's your name?</label>
+        <input type="text" id="name" placeholder="Write your name" required class="name-input"><br><br><br>
+
+        <label for="email" class="email">Please give your e-mail address</label>
+        <input type="email" id="email" placeholder="Type your email address" required class="email-input"><br><br><br>
+
+        <p class="note">Due to unprecedented demand, the party will be conducted on three different days so that
+            everyone can attend.
+        </p>
+
+        <div class="radio">
+            <label for="date">Your preferred date:</label><br>
+            <input type="radio" name="date" value="30th October">
+            <label for="date">30th October</label><br>
+            <input type="radio" name="date" value="31st October">
+            <label for="date">31st October</label><br>
+            <input type="radio" name="date" value="1st November">
+            <label for="date">1st November</label><br><br>
+        </div>
+
+        <label for="meal" class="meal">Select your meal preference:</label>
+        <select name="meal" id="meal" class="meal-input">
+            <option value="veg">Vegetarian Meal</option>
+            <option value="non-veg">Non-vegetarian Meal</option>
+        </select><br><br>
+
+        <label for="additional" class="request">Any special requests that need to be catered:</label>
+        <textarea name="additional" id="additional" cols="50" rows="5" placeholder="start here..."
+            class="request-input"></textarea>
+
+    </form>
+</body>
+
+</html>
